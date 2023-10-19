@@ -3,22 +3,265 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>Ice cream</title>
 </head>
 
 
-
 <body>
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 3vmin;
+    margin: 0;
+    background-color: rgb(255,
+            202,
+            212) !important;
+
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ol,
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 2vmin;
+}
+
+.border {
+    border-radius: 5vmin;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    padding: 3vmin;
+}
+
+.normal {
+    padding: 3vmin;
+}
+
+header,
+footer {
+    color: aliceblue;
+    font-size: 2vmin;
+}
+
+.header-slogan {
+    padding: 0 2%;
+
+}
+
+.find-left-bar,
+.bottom-center-bar {
+    background-color: rgb(157,
+            129,
+            137) !important;
+
+}
+
+.news-left-bar,
+.right-bar {
+    background-color: rgb(244,
+            172,
+            183) !important;
+}
+
+.header,
+.footer-bar {
+    min-height: 10vh;
+    background-color: rgb(40,
+            88,
+            123) !important;
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 0.7vmin solid rgb(55,
+            113,
+            142);
+}
+
+.btn-group{
+    display: table-cell;
+        vertical-align: middle;    
+} 
+
+.left-bar{
+    margin: 0;
+    width: 20vw;
+}
+
+.btn-group .button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55,
+            113,
+            142) !important;
+
+    border: 0.3vmin solid rgb(55,
+            113,
+            142);
+    border-radius: 2vmin;
+    color: white;
+    padding: 2vmin 2vmin;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 15vw;
+    display: block;
+    margin: 2vmin auto auto ;
+    
+    font-size: 2.5vmin;
+    
+}
+
+.btn-group .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.center-bar {  
+    margin: 0;
+    width: 60vw;
+}
+
+.image {
+    
+    width: 50vw;
+    height: auto;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+.left-bar,
+.center-bar {
+    flex-direction: column;
+}
+
+
+.right-bar{
+    margin: 0;
+    width: 20vw;
+}
+
+.footer-bar {
+    border-top: 0.7vmin solid rgb(55,
+            113,
+            142);
+    ;
+}
+
+.footer-slogan {
+    padding: 0 2% 0 0;
+}
+
+.find-left-bar,
+.bottom-center-bar{
+    border: 0.3vmin solid white;
+}
+
+li {
+    margin-bottom: 2vmin;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tbody {
+    border: none;
+}
+
+.news-left-bar-td{
+    background-color: rgb(244,
+                172,
+                183) !important; 
+    
+    border-radius: 5vmin;
+}
+
+.right-bar-td{
+background-color: rgb(244,
+            172,
+            183) !important;
+
+    border-radius: 5vmin;
+}
+
+.news-left-bar {
+    height: 100%;
+    width: 100%;
+    display: table;
+
+
+}
+
+.find-left-bar{
+    padding: 1rem;
+}
+
+.right-bar-td,
+.news-left-bar-td{
+    width: 20%;
+    min-width: 20vw;
+    max-width: 20vw;
+}
+
+.main-center-bar-td{
+    width: 60%;
+}
+
+.bottom-center-bar{
+    padding: 1rem ;
+}
+
+.right-bar {
+    width: 100%;
+
+    height: 100%;
+
+    max-width: 20vw;
+
+
+}
+
+.list-content{
+    margin: 3vmin;
+}
+
+.header-slogan,
+.footer-slogan{
+font-size: 150%;
+color: aliceblue;
+}
+
+.header-text,
+.footer-bar-list{
+    font-size: 75%;
+    color: aliceblue;
+}
+
+    </style>
+
     <table class="main-table">
-        <tr >
+        <tr>
             <td class="header" colspan="2">
                 <p class="normal header-text">
                     Смакує як вчора, відчувається як завтра!
                 </p>
             </td>
-         
+
             <td class="header">
                 <h1 class="header-slogan">MOROZIVO</h1>
             </td>
@@ -36,7 +279,8 @@
             <td class="main-center-bar-td" rowspan="2">
                 <div class="main-center-bar center ">
                     <div class="img-collector">
-                        <img src="../../imgs/pngwing.com.png" alt="Ice cream" class="ice-cream image" usemap="#image_map">
+                        <img src="https://github.com/vlad-zhadan/web_laba_2/blob/master/imgs/pngwing.com.png?raw=true" alt="Ice cream" class="ice-cream image"
+                            usemap="#image_map">
                         <map name="image_map">
                             <area alt="white" title="white" href="vanilla.html" coords="465,339,100" shape="circle">
                             <area alt="red" title="red" href="straberry.html" coords="330,185,80" shape="circle">
@@ -66,12 +310,12 @@
                         <a href="index.html" class="button">Без grid та flex</a>
                         <a href="index-grid.html" class="button">З grid</a>
                         <a href="index-flex.html" class="button">З flex and mobile</a>
-                        
+
                     </div>
-                
+
                 </div>
             </td>
-           
+
 
         </tr>
 
@@ -86,28 +330,28 @@
             </td>
         </tr>
 
-        
-    <!-- </main> -->
+
+        <!-- </main> -->
 
         <tr>
             <td class="footer-bar" colspan="2">
-                <div >
+                <div>
                     <ol class="footer-bar-list">
                         <li>ми</li>
                         <li>також ми</li>
                         <li>ну може і вони</li>
                     </ol>
                 </div>
-                    
+
             </td>
 
 
             <td class="footer-bar">
-                <div >
+                <div>
                     <h1 class="footer-slogan ">MOROZIVO</h1>
                 </div>
 
-                
+
             </td>
         </tr>
     </table>
