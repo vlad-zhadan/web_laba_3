@@ -1,0 +1,189 @@
+body {
+    font-size: 3vmin;
+    margin: 0;
+    background-color: rgb(255,
+            202,
+            212);
+
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ol,
+ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 2vmin;
+}
+
+.border {
+    border-radius: 5vmin;
+}
+
+.center {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.vertical-center{
+    display: grid;
+        align-items: center;
+       
+}
+
+.normal {
+    padding: 3vmin;
+}
+
+header,
+footer {
+    
+    color: aliceblue;
+    font-size: 2vmin;
+}
+
+.header-slogan {
+    justify-self: end;
+    padding: 0 2%;
+
+}
+
+.find-left-bar,
+.bottom-center-bar {
+    background-color: rgb(157,
+            129,
+            137);
+
+}
+
+.news-left-bar,
+.right-bar {
+    background-color: rgb(244,
+            172,
+            183);
+}
+
+.header,
+.footer-bar {
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* Create a 3-column grid with equal space around the center element */
+        min-height: 10vh;
+        background-color: rgb(40, 88, 123);
+        padding: 1% 2%;
+    /* display: flex;
+    min-height: 10vh;
+    background-color: rgb(40,
+            88,
+            123);
+    padding: 1% 2%;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+
+
+.header {
+    border-bottom: 0.7vmin solid rgb(55,
+            113,
+            142);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    min-height: 80vh;
+    margin: 2vmin;
+    justify-self: center;
+        align-self: center;
+}
+
+/* .btn-group{
+    max-width: 20%;
+} */
+
+.btn-group .button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(55,
+            113,
+            142);
+
+    border: 0.3vmin solid rgb(55,
+            113,
+            142);
+    border-radius: 2vmin;
+    color: white;
+    padding: 2vmin 2vmin;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 15vw;
+    display: block;
+    margin-bottom: 2vmin;
+    font-size: 2.5vmin;
+}
+
+.btn-group .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.find-left-bar {
+    margin-bottom: 2vmin;
+}
+
+.center-bar {
+    margin: 0vmin 2vmin;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    /* height: 700px; */
+    max-height: 650px;
+    object-fit: contain;
+}
+
+.left-bar {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.center-bar {
+    display: grid;
+    grid-template-rows: 1fr auto ;
+}
+
+.bottom-center-text{
+    padding: 3vmin;
+}
+
+
+.footer-bar {
+    border-top: 0.7vmin solid rgb(55,
+            113,
+            142);
+    ;
+}
+
+.footer-slogan {
+    padding: 0 2% 0 0;
+    justify-self: end;
+}
+
+
+
+.find-left-bar,
+.bottom-center-bar,
+.news-left-bar,
+.right-bar {
+    border: 0.3vmin solid white;
+}
+
+li {
+    margin-bottom: 2vmin;
+}
